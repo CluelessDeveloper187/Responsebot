@@ -1,0 +1,9 @@
+import discord
+
+client = discord.Client()
+
+@client.event
+async def on_ready():
+  print('Bot is now online')
+  
+client.run('NjI0Nzk5ODc3Nzc1NDkxMDcy.XYWQOw.l7xWQukmpMIcuGCHQWuMU64grqw')
